@@ -10,3 +10,7 @@
 	path = imaging
 	url = ../imaging-port
 	branch = main
+[submodule "graphics"]
+	path = graphics
+	url = ../graphics-port
+	branch = main
