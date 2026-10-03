@@ -63,4 +63,12 @@ if(NOT ${HAS_SYSTEM_UNAC})
 endif()
 
 
+if(${USE_REDSHIFT})
+
+    add_subdirectory(user-generation1/redshift)
+
+endif()
+
+
+
 
