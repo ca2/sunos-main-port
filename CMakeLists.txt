@@ -39,6 +39,9 @@ if(INCLUDE_AUDIO)
 
 endif()
 
+if(USE_PORT_LIBFLUIDSYNTH)
+    add_subdirectory(audio/fluidsynth)
+endif()
 
 if(INCLUDE_OPENGL)
 
