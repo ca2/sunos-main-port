@@ -65,6 +65,7 @@ if(NOT ${HAS_SYSTEM_UNAC})
 
 endif()
 
+add_subdirectory(base/mpg123)
 
 if(${USE_REDSHIFT})
 
